@@ -1,0 +1,44 @@
+body {
+    background: linear-gradient(to bottom, #ffccff 0%, #3366cc 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header h1{
+    text-align: center;
+    margin-top: 240px;
+    font-size: 40px;
+    font-weight: 200;
+    background-color: honeydew;
+    width:370px;
+    vertical-align: middle;
+    margin-left:37%;
+    border-radius: 9px;
+    border: solid 1px #994d00;
+}
+
+form{
+    margin-top: 40px;
+}
+
+input{
+    height: 30px;
+}
+
+form label{
+    font-size: 24px;
+    color:#00334d;
+    font-weight: 300;
+}
+
+.btn{
+    background-color:#fc9;
+    margin-bottom: 300px;
+    color:#630;
+}
+
+.btn :hover{
+    background-color: #630;
+    color: white;
+
+}
