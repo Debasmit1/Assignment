@@ -1,0 +1,240 @@
+body{
+    background-color: #2a2a22;
+}
+nav{
+    height: 5rem;
+    font-size: 18px;
+}
+
+.navbar-brand{
+    font-size:25px;
+    text-shadow: 1px 1px 2px #ffbf00;
+    font-family: sans-serif;
+}
+
+.jumbotron{
+    padding-top: 400px;
+    padding-bottom: 250px;
+    background-image: url("../image/code4.jpeg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: 'PT Serif', serif;
+}
+
+.jumbotron p{
+    font-weight: 500;
+    font-style: italic;
+    font-size: 40px;
+    color: #cc0;
+}
+
+.about{
+    background-color: #161d1a;
+    background-size: cover;
+    padding-top: 140px;
+    padding-bottom: 160px;
+    margin-top: -33px;
+}
+
+.about h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 40%;
+    padding-bottom: 70px;
+}
+
+.abtcon{
+    padding-left: 35%;
+    color:#e6e6e6;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.abtcon h3{
+    font-size: 37px;
+    margin-bottom: 32px;
+}
+
+.abtcon .lead{
+    font-size: 30px;
+}
+
+.abtcon p:nth-child(odd){
+    margin-bottom: 39px;
+    font-size: 24px;
+}
+
+#education{
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+#education h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 40%;
+    padding-bottom: 70px;
+}
+
+#education .card{
+    background-color: #161d1a;
+    border-radius: 12px;
+    border: 1px solid #fff;
+    margin-right: 20px;
+}
+
+#education .card-title{
+    color:#e6e6e6;
+    font-size: 24px;
+    padding-bottom: 19px;
+}
+
+#education p{
+    color: #ccc;
+    font-size: 18px;
+}
+
+#education span{
+    line-height: 20px;
+    color:#cc0;
+}
+
+#technical{
+    background-color: #161d1a;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+#technical h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 30%;
+    padding-bottom: 100px;
+}
+
+#technical p{
+    background-color: #2a2a2a;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color:#e6e6e6;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 2px;
+    border: 1px solid #c90;
+    text-align: center;
+}
+
+#languages{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+#languages h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 34%;
+    padding-bottom: 50px;
+}
+
+#languages p{
+    background-color: #161d1a;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color:#e6e6e6;
+    font-size: 20px;
+    padding: 25px;
+    border-radius: 3px;
+    border-bottom: 5px solid #c90;
+    text-align: center;
+}
+
+#projects{
+    background-color: #161d1a;
+    padding-top: 100px;
+    padding-bottom: 220px;
+}
+
+#projects h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 35%;
+    padding-bottom: 100px;
+}
+
+#projects .card{
+    background-color: #2a2a2a;
+    margin-left: 40px;
+}
+
+#projects .card-title{
+    padding: 15px auto;
+    color: #e6e6e6;
+    text-align: center;
+}
+
+#projects .card-text{
+    color: #ccc;
+}
+
+#certificate{
+    padding-top: 120px;
+    padding-bottom: 200px;
+}
+
+#certificate h1{
+    color: #cc0;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    line-height:0.85;
+    padding-left: 40%;
+    padding-bottom: 70px;
+}
+
+#certificate .card{
+    background-color: #161d1a;
+    border-radius: 12px;
+    border: 1px solid #fff;
+}
+
+#certificate .card-header{
+    color:#e6e6e6;
+}
+
+#certificate .card-body{
+    color:#ccc;
+}
+
+footer{
+    background-color: #595959;
+    color: #fff;
+}
+
+footer a{
+    padding: 15px;
+    font-size: 17px;
+    display: inline-block;
+    color:#fff;
+}
+footer i{
+    padding:2px;
+}
+footer .two{
+    font-size: 20px;
+    padding:20px 12px 12px 10px;
+}

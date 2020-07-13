@@ -8,9 +8,9 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-
-    <link href="icon/css/all.css" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Roboto+Condensed&family=Roboto:ital@1&display=swap" rel="stylesheet">
+        <link href="icon/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style1.css">
 
     <title>Homepage</title>
 </head>
@@ -18,14 +18,14 @@
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#">Debasmit</a>
+        <a class="navbar-brand" href="./index.html">Debasmit</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav my-2 my-lg-0">
-                <a class="nav-item nav-link" href="#home">Home</a>
+                <a class="nav-item nav-link" href="./index.html">Home</a>
                 <a class="nav-item nav-link" href="#about">About Me</a>
                 <a class="nav-item nav-link" href="#education">Education</a>
                 <a class="nav-item nav-link" href="#technical">Technical Skills</a>
@@ -39,53 +39,57 @@
 
     <!-- JUMBOTRON -->
 
+    <section class="main">
         <div class="jumbotron">
-            <div class="container d-flex h-100 align-items-center">
-                <div class="mx-auto text-center">
-                    <h1 class="mx-auto my-0">Hi, I'm Debasmit</h1>
-                    <p class="mx-auto mt-2 mb-5">Web Developer || Traveller || Wanderer || Aquarist</p>
-                    <a class="btn btn-primary js-scroll-trigger" href="#about">Get Started</a>
+            <div class="container">
+                <div class="mx-auto d-flex flex-column justify-content-start">
+                    <h1 class="p-2">Hi, I'm Debasmit</h1>
+                    <p class="p-2">Web Developer</p>
                 </div>
             </div>
         </div>
-
+        </section>
     <!-- MAIN-->
     <main>
 
+        <section class="about"  id="about">
         <div class="container mt-2">
-                <h1 class="display-6" id="about">About Me</h1>
+                <h1 class="display-6">About Me</h1>
+                <div class="container abtcon">
                     <h3 class="display-6">Debasmit Biswal</h3>
                     <p class="lead">Web Developer</p>
                     <p>Earnest learner who tries to be perfect</p>
                     <p class="lead">Objective</p>
-                    <p>To work for the company where I can enhance my knowledge about my field.</p>
+                    <p>To work for the company where I can enhance my knowledge in my field.</p>
+                    </div>
         </div>
-
+    </section>
 
     <!-- CARD-->
+    <section class="education" id="education">
         <div class="container mt-4">
-            <h1 class="display-6 mb-4" id="education">Education</h1>
+            <h1 class="display-6 mb-4">Education</h1>
             <div class="row">
 
-                <div class="card col-4 mr-1">
+                <div class="card col-4">
                     <div class="card-body">
                         <h5 class="card-title">B.Tech</h5>
                         <p class="card-text">Computer Science</p>
                         <p class="card-text">The National Institute of Engineering</p>
                         <p class="card-text">Mysuru</p>
                         <p class="card-text">(2019 - present)</p>
-                        <p class="card-text">Secured CGPA 7.6 upto 1st semester</p>
+                        <span class="card-text">Secured CGPA 7.6 upto 1st semester</span>
                     </div>
                 </div>
 
-                <div class="card col-3 mr-1">
+                <div class="card col-3">
                     <div class="card-body">
                         <h5 class="card-title">10+2(PCM)</h5>
                         <p class="card-text">Vikas Vidyaniketan</p>
                         <p class="card-text">CBSE</p>
                         <p class="card-text">Visakhapatanam</p>
                         <p class="card-text">(2016-18)</p>
-                        <p class="card-text">89.4%</p>
+                        <span class="card-text">89.4%</span>
                     </div>
                 </div>
 
@@ -96,45 +100,62 @@
                         <p class="card-text">ICSE</p>
                         <p class="card-text">Balasore</p>
                         <p class="card-text">(2016)</p>
-                        <p class="card-text">89.33%</p>
+                        <span class="card-text">89.33%</span>
                     </div>
                 </div>
 
             </div>
         </div>
+    </section>
 
+        <section class="technical" id="technical">
         <div class="container mt-4">
-            <h1 class="display-6 mb-4" id="technical">Technical Skills</h1>
+            <h1 class="display-6 mb-4">Technical Skills</h1>
+            <div class="container">
             <div class="row">
-                <p class="col-4">C</p>
-                <p class="col-4">HTML</p>
-                <p class="col-4">CSS</p>
+                <p class="col-3 ml-5">C</p>
+                <p class="col-3">HTML</p>
+                <p class="col-3">CSS</p>
             </div>
             <div class="row">
-                <p class="col-4">Bootstrap</p>
-                <p class="col-4">JavaScript</p>
-                <p class="col-4">Git</p>
+                <p class="col-3 ml-5">Bootstrap</p>
+                <p class="col-3">JavaScript</p>
+                <p class="col-3">Git</p>
             </div>
-        </div>
-
-        <div class="container mt-2">
-            <h1 class="display-6" id="languages">Languages</h1>
             <div class="row">
-                <p class="col-4 ">English</p>
-                <p class="col-4 ">Hindi</p>
-                <p class="col-4 ">Odia</p>
+                <p class="col-3 ml-5">LESS</p>
+                <p class="col-3">Sass</p>
+                <p class="col-3">Node.js</p>
+            </div>
             </div>
         </div>
+        </section>
 
+     <section class="languages" id="languages">
         <div class="container mt-2">
-            <h1 class="display-6" id="projects">Projects</h1>
+            <h1 class="display-6">Languages</h1>
+            <div class="container">
+            <div class="row">
+                <p class="col-3 ml-5">English</p>
+                <p class="col-3 ">Hindi</p>
+                <p class="col-3 ">Odia</p>
+            </div>
+            </div>
+        </div>
+     </section>
 
-            <div class="row no-gutters">
 
-                <div class="card col-sm-5 mr-2">
+     <section class="projects" id="projects">
+        <div class="container mt-2">
+            <h1 class="display-6" >Projects</h1>
+
+
+            <div class="row">
+
+                <div class="card col-sm-5 ml-5">
                     <div class="card-body">
                         <h5 class="card-title">Form</h5>
-                        <p class="card-text"><i class="fas fa-journal-whills"></i>
+                        <p class="card-text"><i class="fas fa-journal-whills fa-2x"></i>
                         A static co-operative motor insurance built using HTML.</p>
                     </div>
                 </div>
@@ -142,12 +163,13 @@
                 <div class="card col-sm-5">
                     <div class="card-body">
                         <h5 class="card-title">Pig-Game</h5>
-                        <p class="card-text"><i class="fas fa-gamepad"></i>
+                        <p class="card-text"><i class="fas fa-gamepad fa-2x"></i>
                             A perfect game for two people built using JavaScript.</p>
                     </div>
                 </div>
 
             </div>
+
 
             <div class="row mt-4">
 
@@ -156,17 +178,19 @@
                 <div class="card col-sm-5">
                     <div class="card-body">
                         <h5 class="card-title">Scrambled-Eggs</h5>
-                        <p class="card-text"><i class="fas fa-hotel"></i>
+                        <p class="card-text"><i class="fas fa-hotel fa-2x"></i>
                             A static website for a hotel using HTML and basic CSS.</p>
                     </div>
                 </div>
 
             </div>
         </div>
+    </section>
 
 
+    <section class="certificate" id="certificate" >
         <div class="container mt-2">
-            <h1 class="display-6" id="certificate">Certificates</h1>
+            <h1 class="display-6">Certificates</h1>
             <div class="row">
 
                 <div class="card col-4">
@@ -229,7 +253,7 @@
 
             </div>
         </div>
-
+        </section>
 
     </main>
 
@@ -237,18 +261,19 @@
     <!-- FOOTER -->
     <footer>
 
-        <div class="container" id="contact">
+        <div class="container one" id="contact">
             <div class="row">
-                <a href="https://github.com/DebasmitBiswal" class="col-12"><i class="fab fa-github"></i>Github</a>
-                <a href="https://www.linkedin.com/in/debasmit-biswal-329603171/" class="col-12"><i class="fab fa-linkedin"></i>Linkedin</a>
-                <a href="https://twitter.com/BiswalDebasmit?=09"  class="col-12"><i class="fab fa-twitter"></i>Twitter</a>
-                <a href="mailto:debasmitbiswal480@outlook.com" class="col-12"><i class="fas fa-envelope"></i>Mail</a>
+                <a href="https://github.com/DebasmitBiswal"><i class="fab fa-github"></i>Github</a>
+                <a href="https://www.linkedin.com/in/debasmit-biswal-329603171/"><i class="fab fa-linkedin"></i>Linkedin</a>
+                <a href="https://twitter.com/BiswalDebasmit?=09"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="mailto:debasmitbiswal480@outlook.com"><i class="fas fa-envelope"></i>Mail</a>
             </div>
         </div>
 
-        <div class="container">
+        <div class="container two">
             <p>Designed with all the love by <em>Debasmit Biswal</em></p>
         </div>
+
     </footer>
 
 </body>
